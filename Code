@@ -1,0 +1,42 @@
+# Enhanced rule-based chatbot
+
+# Define the rules as a dictionary with more varied and natural responses
+rules = {
+    "hello": "Hi there! How can I help you today?",
+    "hi": "Hello! How are you doing?",
+    "how are you": "I'm Talky, but I'm doing great! How about you?",
+    "what is your name": "I am a Talky. What's your name?",
+    "bye": "Goodbye! Have a great day!",
+    "who created you": "I was created by Mehak.",
+    "what can you do": "I can chat with you, answer questions, and help with information. What would you like to know?",
+    "tell me a joke": "Why did the scarecrow win an award? Because he was outstanding in his field!",
+    "what is the meaning of life": "The meaning of life is a philosophical question. What do you think it is?",
+    "what is your favorite color": "As I'm a bot, I don't have preferences, but I think all colors are beautiful!",
+    "do you have any hobbies": "I enjoy learning new things and helping people with their questions.",
+    "default": "I'm sorry, I don't understand that. Can you please rephrase?"
+}
+
+# Function to get a response based on user input
+def get_response(user_input):
+    # Convert input to lowercase for case-insensitive matching
+    user_input = user_input.lower()
+    # Iterate through the rules and find a matching response
+    for key in rules:
+        if key in user_input:
+            return rules[key]
+    # If no match is found, return the default response
+    return rules["default"]
+
+# Main chatbot loop
+def chatbot():
+    print("Chatbot: Hi! I am your chatbot. Type 'bye' to exit.")
+    while True:
+        user_input = input("You: ")
+        if user_input.lower() == "bye":
+            print("Chatbot: " + rules["bye"])
+            break
+        response = get_response(user_input)
+        print("Chatbot: " + response)
+
+# Run the chatbot
+chatbot()
