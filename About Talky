@@ -1,0 +1,29 @@
+Talky is a simple rule-based chatbot designed to chat with you and provide responses based on what you say. It has a set of predefined rules that it follows to understand your input and respond accordingly.
+
+How Talky Works:
+Greeting and Interaction:
+
+When you say "hello" or "hi", Talky responds with friendly greetings like "Hi there!" or "Hello! How are you doing?".
+If you ask "how are you?", Talky tells you it's doing great and asks how you're doing.
+When you ask for its name, it says it's Talky and asks for your name.
+Common Questions:
+
+If you ask "who created you?", Talky says it was created by Mehak.
+When you ask "what can you do?", Talky explains that it can chat, answer questions, and help with information.
+Fun and Personal Questions:
+
+If you ask for a joke, Talky shares a funny one about a scarecrow.
+When you ask "what is the meaning of life?", Talky turns the question back to you, saying it's a philosophical question.
+For "what is your favorite color?", Talky responds that it thinks all colors are beautiful since it's a bot.
+Other Questions:
+
+If you ask about hobbies, Talky says it enjoys learning new things and helping people.
+For any input it doesn't understand, Talky responds with a polite message asking you to rephrase.
+Ending the Chat:
+
+If you type "bye", Talky says "Goodbye! Have a great day!" and ends the chat.
+Using Talky:
+You can type any message to Talky, and it will try to find a response based on its rules.
+If it doesn't understand something, it asks you to rephrase.
+You can exit the chat at any time by typing "bye".
+Talky is designed to be friendly, helpful, and fun to interact with, making it a great companion for simple conversations!
